@@ -6,8 +6,8 @@ import { Link } from "react-router-dom";
 const Navigation = () => {
     const Menus = [
         { name: "Home", icon: faHome, dis: "translate-x-0", route: "/" },
-        { name: "Profile", icon: faUser, dis: "translate-x-16", route: "/profile" },
-        { name: "Absen", icon: faCalendarDay, dis: "translate-x-32", route: "/absen" },
+        { name: "Profile", icon: faUser, dis: "translate-x-16", route: "new-learnsite/profile" },
+        { name: "Absen", icon: faCalendarDay, dis: "translate-x-32", route: "new-learnsite/absen" },
         { name: "Photos", icon: faCamera, dis: "translate-x-48", route: "/photo" },
         { name: "Settings", icon: faCogs, dis: "translate-x-64", route: "/settings" },
     ];

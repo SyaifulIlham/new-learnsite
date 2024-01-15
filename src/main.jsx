@@ -6,6 +6,7 @@ import './index.css'
 import Home from './pages/home.jsx'
 import Formp from './pages/form.jsx'
 import Table from './pages/absen.jsx'
+import Formrg from './pages/lglfrm.jsx'
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
       {
         path: "/new-learnsite/",
         element: <Table/>
+      },
+      {
+        path: "/new-learnsite/",
+        element: <Formrg/>
       },
     ]
   }
